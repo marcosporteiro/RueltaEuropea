@@ -1,10 +1,10 @@
 # RueltaEuropea
 Ruleta Europea hecha en python
 
-#Para instalar
+# Para instalar
 pip install RuletaEuropea
 
-#Ejemplo de uso
+# Ejemplo de uso
 
 ```python
 from RuletaEuropea.Apuesta import *
