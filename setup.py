@@ -5,5 +5,5 @@ setup(
     version='0.1.4',
     packages=find_packages(),
     author='Marcos Porteiro',
-    description='Implementacion de la ruleta europea heca en python',  
+    description='Implementacion de la ruleta europea hecha en python',  
 )
