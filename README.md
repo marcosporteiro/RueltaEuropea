@@ -4,7 +4,7 @@ Ruleta Europea hecha en python
 # Para instalar
 pip install RuletaEuropea
 
-# Tablero
+# Tablero para CLI
 ![image](https://github.com/marcosporteiro/RueltaEuropea/assets/70981547/4759ea2d-5937-4307-9dd6-897690245a04)
 
 # Ejemplo de uso
