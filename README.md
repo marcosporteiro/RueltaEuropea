@@ -19,6 +19,8 @@ def main():
     print("Bienvenido a la ruleta \n")
     ruleta = Ruleta()
 
+    print(ruleta.tablero())
+
     print(ruleta.añadir_apuesta(Apuesta("Juan", APUESTA_COLOR, VERDE, 1)))
     print(ruleta.añadir_apuesta(Apuesta("Roberto", APUESTA_COLUMNA, 1, 1)))
     print(ruleta.añadir_apuesta(Apuesta("Alejandra", APUESTA_DOCENA, 3, 1)))
