@@ -28,13 +28,13 @@ class Apuesta:
         return f"Usuario: {self.usuario}, Apuesta: {self.apuesta}, Jugada: {self.jugada}, Cantidad apostada: {self.cantidad_apostada}, Cantidad a ganar: {self.cantidad_a_ganar}"
 
     def str_apuesta(self):
-        return f"{self.usuario} apostó ¢ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada}!"
+        return f"{self.usuario} apostó $ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada}!"
 
     def str_ganador(self):
-        return f"{self.usuario} apostó ¢ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada} y ganó ¢ {self.cantidad_ganada()}!"
+        return f"{self.usuario} apostó $ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada} y ganó $ {self.cantidad_ganada()}!"
     
     def str_perdedor(self):
-        return f"{self.usuario} perdió ¢ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada} :c"
+        return f"{self.usuario} perdió $ {self.cantidad_apostada} jugando {self.apuesta} {self.jugada}"
 
     def calcular_paga(self):
         if self.apuesta == APUESTA_COLOR:
